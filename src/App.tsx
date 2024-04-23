@@ -7,7 +7,7 @@ function App() {
 		<div className='display-layout'>
 			<header className='main-section'>
 				<div className='header-display'>
-					<h1>Taha Al-Asadi</h1>
+					<h1>Taha AlAsadi</h1>
 					<h6>Full Stack Developer</h6>
 					<p>Specialising in the front end</p>
 				</div>
