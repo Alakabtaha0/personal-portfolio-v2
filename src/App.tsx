@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
 import Card from './components/Card';
 import { ReactComponent as LinkedInLogo } from './assets/linkedin.svg';
