@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import Card from './components/Card';
+import { ReactComponent as LinkedInLogo } from './assets/linkedin.svg';
+import { ReactComponent as GithubLogo } from './assets/github.svg';
+import { ReactComponent as FileLogo } from './assets/file.svg';
 
 function App() {
 	return (
 		<div className='display-layout'>
 			<header className='main-section'>
 				<div className='header-display'>
-					<h1>Taha AlAsadi</h1>
+					<h1>Taha Al-Asadi</h1>
 					<h6>Full Stack Developer</h6>
 					<p>Specialising in the front end</p>
 				</div>
@@ -18,6 +21,11 @@ function App() {
 						<li><a href='#Projects'>Projects</a></li>
 					</ul>
 				</nav>
+				<div className='logo-layout'>
+					<a href='https://www.linkedin.com/in/taha-al-asadi-98326a261/' target='_blank' rel="noreferrer"><LinkedInLogo /></a>
+					<a href='https://github.com/Alakabtaha0' target='_blank' rel="noreferrer"><GithubLogo /></a>
+					<a href='/downloads/tahacv.pdf' download><FileLogo /></a>
+				</div>
 			</header>
 			<main className='body-section'>
 				<section id='About'>
