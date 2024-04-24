@@ -11,7 +11,6 @@
 	justify-content: flex-start;
 	align-items: center;
 	margin-top: 100px;
-	width: 100%;
 }
 
 .logo-layout svg {
@@ -29,6 +28,7 @@
 .main-section {
 	width: 100%;
 }
+
 
 .header-display {
 	color: white;
@@ -53,15 +53,27 @@
 .navbar ul {
 	list-style: none;
 	margin-top: 100px;
+	padding-left: 20%;
 }
 
 .navbar ul li {
 	margin: 10px 0;
+	align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .navbar ul li a {
 	text-decoration: none;
 	color: white;
+}
+
+.section-line {
+	width: 30px;
+	height: 2px;
+	background-color: rgba(255, 255, 255, 0.575);
+	display: inline-block;
+	margin: 0 12px;
 }
 
 .body-section {
@@ -76,3 +88,48 @@
 }
 
 
+.nav-heading {
+	position: sticky;
+	left: 0;
+	top: 0;
+	backdrop-filter: blur(10px);
+	width: 100vw;
+	z-index: 2;
+	display: none;
+}
+
+.nav-heading h2 {
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 10px;
+	color: white;
+	display: inline;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.display-layout {
+		display: block;
+	}
+
+	.header-display h1 {
+		font-size: 3rem;
+		margin-top: 100px;
+		margin-bottom: 20px;
+	}
+
+	.body-section {
+		width: 100%;
+		height: 100%;
+		overflow-y: visible;
+	}
+
+	.navbar {
+		display: none;
+	}
+
+	.nav-heading {
+		display: block;
+	}
+}

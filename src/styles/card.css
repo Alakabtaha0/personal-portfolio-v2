@@ -67,3 +67,29 @@
 section {
 	margin: 100px 0;
 }
+
+@media (max-width: 1024px) {
+	.experience-box {
+		flex-direction: column;
+	}
+
+	.experience-info-format {
+		max-width: 100%;
+		padding: 0;
+		order: 1;
+	}
+
+	.experience-box:hover {
+		background-color: transparent;
+		border-top: 1px solid rgba(0, 0, 0, 0);
+	}
+
+	.experience-image-layout img {
+		width: 190px;
+		border-radius: 5px;
+	}
+
+	.experience-image-layout {
+		order: 2;
+	}
+}
