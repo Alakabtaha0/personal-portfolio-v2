@@ -111,12 +111,13 @@
 @media screen and (max-width: 768px) {
 	.display-layout {
 		display: block;
+		height: auto;
 	}
 
 	.header-display h1 {
 		font-size: 3rem;
-		margin-top: 100px;
 		margin-bottom: 20px;
+		margin-top: 0;
 	}
 
 	.body-section {
@@ -131,5 +132,15 @@
 
 	.nav-heading {
 		display: block;
+		padding: 15px;
+	}
+
+	.main-section {
+		height: 100vh;
+		padding-top: 100px;
+	}
+
+	.logo-layout {
+		margin-top: 400px;
 	}
 }
